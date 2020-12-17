@@ -1,0 +1,20 @@
+.link {
+  text-decoration: none;
+  background-color: transparent;
+  color: #1a1a1a;
+  display: flex;
+  width: 25%;
+  &:hover {
+    text-decoration: none;
+    color: #1a1a1a;
+  }
+}
+
+.active {
+  color: #fff !important;
+  background-color: #007bff !important;
+}
+
+.link-paginate {
+  cursor: pointer;
+}
